@@ -1,0 +1,67 @@
+body {
+  background-color: #333;
+}
+
+.espacio {
+  margin-top: 5px;
+}
+
+#btnForm {
+  width: 100%;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+#btnForm:hover {
+  background-color: gray;
+  color: white;
+}
+.accordion-button {
+  background-color: #016e44;
+  color: white;
+  border: 1px solid white;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #016e44;
+  color: white;
+  border: 1px solid white;
+}
+
+.valida {
+  border: 2px solid rgb(2, 158, 85);
+}
+
+.no_valida {
+  border: 2px solid red;
+}
+
+#formulario {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#select,
+#input_titulo,
+#input_importe,
+#input_fecha {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+#formulario h2 {
+  text-align: center;
+}
+
+#enviar {
+  width: 100%;
+  background-color: rgb(132, 234, 172);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+#accordion-body {
+  background-color: rgb(212, 212, 212);
+}
